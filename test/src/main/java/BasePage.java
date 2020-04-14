@@ -11,7 +11,7 @@ public abstract class BasePage {
     private String password = System.getenv("PASSWORD");
 
 
-    public void navigate(){
+    public void navigate() {
         driver.navigate().to(baseURL);
     }
 
